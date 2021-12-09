@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "intikisa-app-react-native",
+    "name": "Intikisa Peru",
     "slug": "intikisa-app-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/logointikisa.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
