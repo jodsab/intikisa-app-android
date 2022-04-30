@@ -6,7 +6,8 @@ import {
     StyleSheet,
     Modal,
     TouchableOpacity,
-    ScrollView
+    ScrollView,
+    ToastAndroid
 } from 'react-native';
 
 import Icon from 'react-native-vector-icons/MaterialIcons';
@@ -15,9 +16,6 @@ import Iconfs from 'react-native-vector-icons/FontAwesome';
 
 // import theme
 import * as theme from '../constants/theme'
-
-// import Bag Modal
-import BagModal from './bagModal'
 
 import { getNombre } from '../asyncStorage/helpers';
 
@@ -50,33 +48,28 @@ const ProductModal = (props) => {
             "carrito_producto": props.item.prodnombre,
             "carrito_precio": props.item.proprecio
         }
-        console.log(data)
+
 
         const respuestaJson = await addProducttoCart(URL_ADD_PRODUCT_TO_CART, data);
 
-        console.log(respuestaJson)
+        if(respuestaJson.registro == true){
+            ToastAndroid.showWithGravity(
+                'Producto agregado correctamente.',
+                ToastAndroid.SHORT,
+                ToastAndroid.CENTER
+                )
+        }
+
     }
 
     return (
         <ScrollView style={{flex: 1}}>
-            {/* <Modal 
-                animationType="slide" 
-                visible={bagVisible}
-                onRequestClose={() => ToggleBagVisible()}>
-                    <BagModal closeModal={() => ToggleBagVisible()} />
-            </Modal> */}
             <View style={[styles.container, {backgroundColor: background}]}>
                 {/* Header */}
                 <View style={styles.header}>
                     <TouchableOpacity onPress={props.closeModal}>
                         <Icon name="keyboard-arrow-left" size={30} color={theme.colors.light.foreground} />
                     </TouchableOpacity>
-                    {/* <TouchableOpacity onPress={() => ToggleBagVisible()}>
-                        <Icon name="shopping-cart" size={30} color={theme.colors.light.foreground} />
-                        <View style={styles.badgeContainer}>
-                            <Text style={styles.badgeText}>6</Text>
-                        </View>
-                    </TouchableOpacity> */}
                 </View>
                 {/* Body */}
                 <View style={styles.imgContainer}>
@@ -85,7 +78,7 @@ const ProductModal = (props) => {
                 <View style={styles.detailsContainer}>
                     <View style={{flexDirection: 'row', alignItems: 'center'}}>
 
-                        <Text style={styles.priceText}>S/.{props.item.proprecio}.00</Text>
+                        <Text style={styles.priceText}>S/.{props.item.proprecio}</Text>
 
                         <View style={{justifyContent: "center", alignItems: "center" }} >
                             <TouchableOpacity onPress={()=> agregaralCarrito()} style={[styles.btnContainer]} >

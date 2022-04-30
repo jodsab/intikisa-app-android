@@ -19,7 +19,8 @@ const ComoComprar = (props) => {
                 <Text style={{fontSize: 19, marginVertical: 5}}>2.<Text style={{fontWeight: "bold"}}>Presiona en el producto</Text> para mirar más fotos y ver la descripción, incluso sus ingredientes.</Text>
                 <Text style={{fontSize: 19, marginVertical: 5}}>3.<Text style={{fontWeight: "bold"}}>Añadelo al carrito</Text><Icon name="shopping-cart" size={20} color='green'/> y espera el popup de confirmacion.</Text>
                 <Text style={{fontSize: 19, marginVertical: 5}}>4.Ve a la ventana de <Text style={{fontWeight: "bold"}}>Carritos</Text><Icon name="shopping-cart" size={20} color='green' /> y verifica que tu producto se haya agregado correctamente.</Text>
-                <Text style={{fontSize: 19, marginVertical: 5}}>5.<Text style={{fontWeight: "bold"}}>Procede al botón pagar y paga</Text>, nosotros nos encargaremos de usar la información que inscribiste al registrarte para contactarnos y enviarnos tu producto.</Text>
+                <Text style={{fontSize: 19, marginVertical: 5}}>5.<Text style={{fontWeight: "bold"}}>Procede al botón pagar y paga</Text>, nosotros nos encargaremos de usar la información que inscribiste al registrarte para contactarnos y enviar tu producto.</Text>
+                <Text style={{fontSize: 19, marginVertical: 5}}>6.<Text style={{fontWeight: "bold"}}>Confirma en compras </Text>, tu/tus productos deberían aparecer aquí en orden por fecha, revisa tu correo electrónico, también recibirás un email de compra.</Text>
             </View>
         </ScrollView>
     )

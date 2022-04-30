@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {  StyleSheet, View, Text, Image, TouchableOpacity, Modal } from 'react-native'
+import {  StyleSheet, View, Text, Image, TouchableOpacity, Modal, Alert, ToastAndroid } from 'react-native'
 
 // import Product Modal
 import ProductModal from './productModal'
@@ -38,6 +38,13 @@ const ProductComponent = ({item}) => {
             "carrito_precio": item.proprecio
         }
         const respuestaJson = await addProducttoCart(URL_ADD_PRODUCT_TO_CART, data);
+        if(respuestaJson.registro == true){
+            ToastAndroid.showWithGravity(
+                'Producto agregado correctamente.',
+                ToastAndroid.SHORT,
+                ToastAndroid.CENTER
+                )
+        }
     }
 
     return(
@@ -56,7 +63,7 @@ const ProductComponent = ({item}) => {
                 <View>
                     <Text style={styles.title}>{item.prodnombre}</Text>
                     <View style={{flexDirection:'row', alignItems: 'center'}}>
-                        <Text style={styles.subTitle}>S/.{item.proprecio}.00</Text>
+                        <Text style={styles.subTitle}>S/.{item.proprecio}</Text>
                         <TouchableOpacity onPress={()=> agregaralCarrito()} style={{width: 35}} >
                             <Iconfs name="cart-plus" size={20} color='black' style={{backgroundColor:'#53ff87', padding: 7, borderRadius: 50 }} />
                         </TouchableOpacity>

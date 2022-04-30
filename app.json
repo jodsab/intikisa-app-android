@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Intikisa Peru",
+    "name": "Intikisa Perú",
     "slug": "intikisa-app-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -20,10 +20,13 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 4,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "intikisa.app",
+      "permissions": ["CAMERA", "RECORD_AUDIO", "READ_CONTACTS", "READ_PHONE_STATE"]
     },
     "web": {
       "favicon": "./assets/favicon.png"

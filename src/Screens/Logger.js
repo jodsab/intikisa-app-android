@@ -115,7 +115,7 @@ const Logger = () => {
                 </Modal>
                 
                 <View>
-                    <Image source={{uri: 'https://i.imgur.com/pOBw24N.png'}} style={{width: 150, height: 80}} />
+                    <Image source={require('../../assets/logo.png')} style={{width: 200, height: 200}} />
                 </View> 
                 <View style={styles.touchContainer}>
                     <TouchableOpacity onPress={() => ToggleLogin()} style={styles.login_btn}>
@@ -135,7 +135,8 @@ const styles = StyleSheet.create({
     containerPerfil: {
         height: "100%",
         justifyContent: "space-evenly",
-        alignItems: "center"
+        alignItems: "center",
+        backgroundColor: "white"
     },
     touchContainer: {
         /* top: 100 */
@@ -152,7 +153,9 @@ const styles = StyleSheet.create({
         backgroundColor: 'white',
         borderRadius: 18,
         paddingVertical: 5,
-        marginVertical: 8
+        marginVertical: 8,
+        borderColor: "green",
+        borderWidth: 1
         /* top: 10 */
     },
     textLog: {

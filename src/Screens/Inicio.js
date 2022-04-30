@@ -1,19 +1,11 @@
-import React, {useState, useEffect} from 'react'
-import {  StyleSheet, View, Modal, Text, TouchableOpacity, TextInput, FlatList, ScrollView, StatusBar,Image  } from 'react-native'
+import React, {useState} from 'react'
+import {  StyleSheet, View, Text, FlatList, } from 'react-native'
 
-import productos from '../ProductosJson/productos.json'
 // import theme
 import * as theme from '../constants/theme'
-import Icon from 'react-native-vector-icons/MaterialIcons'
 
 // import product component
 import ProductComponent from '../components/productsComponents'
-
-// import Bag Modal
-import BagModal from '../components/bagModal'
-
-// import clothes from products
-import * as Products from '../constants/products'
 
 // const with the current theme (dark / light)
 const currentTheme = theme.colors.light
@@ -61,11 +53,6 @@ const Inicio = () => {
         }, [])
       );
 
-    /* useEffect(async () => {
-        const productasos = await llamadaProductos();
-        setProductos(productasos)   
-    }, []); */
-
     return (
         <View >
             <View style={styles.container}>
@@ -75,23 +62,7 @@ const Inicio = () => {
                         <Text style={styles.titleText}>Productos Naturales</Text>
                         <Text style={styles.subTitleText}>Alimentate bien desde hoy</Text>
                     </View>
-                    {/* <TouchableOpacity style={styles.iconCaontainer} onPress={() => ToggleBagVisible()}>
-                        <Icon name="shopping-cart" color={currentTheme.background} size={25} />
-                        <View style={styles.badgeContainer}>
-                            <Text style={styles.badgeText}>6</Text>
-                        </View>
-                    </TouchableOpacity> */}
                 </View>
-
-                {/* Search */}
-{/*                 <View style={styles.searchContainer}>
-                    <Icon name="search" color={theme.colors.gray} size={25} />
-                    <TextInput 
-                    style={styles.textInputContainer} 
-                    placeholder="Search.." 
-                    placeholderTextColor={theme.colors.gray} />
-                </View> */}
-
                 {/* Body */}
                 <View style={styles.bodyContainer}>
                     <FlatList
@@ -105,7 +76,6 @@ const Inicio = () => {
                                 <ProductComponent item={item} />
                             )
                         }} 
-                        
                     />
                 </View>
             </View>

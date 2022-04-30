@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f10b341f-173b-4d9d-9641-a69729a426a4" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../.expo-shared/assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.expo-shared/assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../App.js" beforeDir="false" afterPath="$PROJECT_DIR$/../App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pagina.js" beforeDir="false" afterPath="$PROJECT_DIR$/../Pagina.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app.json" beforeDir="false" afterPath="$PROJECT_DIR$/../app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/adaptive-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/adaptive-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/favicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/favicon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/logointikisa.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/logointikisa.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../assets/splash.png" beforeDir="false" afterPath="$PROJECT_DIR$/../assets/splash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/PantallaInicio/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/PantallaInicio/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/PantallaInicio/Registro.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/PantallaInicio/Registro.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/ProductosJson/productos.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Carrito.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Carrito.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Compras.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Compras.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Inicio.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Inicio.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/Logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/Screens/Logger.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ARANDANOS IMAGEN 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ARANDANOS IMAGEN 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ARANDANOS IMAGEN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/CHOCOLATE DE TAZA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/CHOCOLATE DE TAZA2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/CHOCOLATE DE TAZA3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/Fwd__PNG.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/INKA GOLDEN MIX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACA GELATINIZADA EN POLVO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACA GELATINIZADA2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACA GELATINIZADA3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACA GELATINIZADA4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACA GELATINIZADO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACHU PICCHU GOLDEN MIX 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACHU PICCHU GOLDEN MIX 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MACHU PICCHU GOLDEN MIX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MERMELADA DE AGUAYMANTO CON STEVIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MERMELADA DE ARANDANOS CON STEVIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MERMELADA DE ARANDANOS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/MERMELADA DE FRESA CON STEVIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/PANETÓN CON FRUTAS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/PANETÓN CON FRUTAS2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/PANETÓN CON FRUTAS2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/PANETÓN INTEGRAL CON ARANDANOS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/PANETÓN INTEGRAL CON ARANDANOS2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ZAPALLO LOCHE DESHIDRATADO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ZAPALLO LOCHE DESHIDRATADO2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ZAPALLO LOCHE DESHIDRATADO3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ZAPALLO LOCHE DESHIDRATADO4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ZAPALLO LOCHE DESHIDRATADO5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/ZAPALLO LOCHE EN PASTA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/Screens/productos/intikisachocolate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/bagModal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/productBagComponent.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/productModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/productModal.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/components/productsComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/components/productsComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/constants/products.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/images/BlackT-Shirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/images/GrayTrousers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/images/PinkSweater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/images/PinkT-Shirt.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/images/RedSweater.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/images/RedTrousers.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/icons/left-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/icons/right-arrow.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/msj/msjbot.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/msj/wsp.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/pagos/bancos.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ARANDANOS IMAGEN 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ARANDANOS IMAGEN 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ARANDANOS IMAGEN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/CHOCOLATE DE TAZA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/CHOCOLATE DE TAZA2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/CHOCOLATE DE TAZA3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/Fwd__PNG.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/INKA GOLDEN MIX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACA GELATINIZADA EN POLVO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACA GELATINIZADA2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACA GELATINIZADA3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACA GELATINIZADA4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACA GELATINIZADO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACHU PICCHU GOLDEN MIX 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACHU PICCHU GOLDEN MIX 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MACHU PICCHU GOLDEN MIX.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MERMELADA DE AGUAYMANTO CON STEVIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MERMELADA DE ARANDANOS CON STEVIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MERMELADA DE ARANDANOS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/MERMELADA DE FRESA CON STEVIA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/PANETÓN CON FRUTAS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/PANETÓN CON FRUTAS2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/PANETÓN CON FRUTAS2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/PANETÓN INTEGRAL CON ARANDANOS.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/PANETÓN INTEGRAL CON ARANDANOS2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ZAPALLO LOCHE DESHIDRATADO.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ZAPALLO LOCHE DESHIDRATADO2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ZAPALLO LOCHE DESHIDRATADO3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ZAPALLO LOCHE DESHIDRATADO4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ZAPALLO LOCHE DESHIDRATADO5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/ZAPALLO LOCHE EN PASTA.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/productos/intikisachocolate.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/respuestadecompra/msj.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/respuestadecompra/perfil.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/slider/ARANDANOS IMAGEN 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/slider/ARANDANOS IMAGEN 3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/slider/ARANDANOS IMAGEN.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/tipos/cacao.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/tipos/deshidratados.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/tipos/mermeladas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/tipos/panetones.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/img/tipos/proteinas.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../src/menusUser/ComoComprar.js" beforeDir="false" afterPath="$PROJECT_DIR$/../src/menusUser/ComoComprar.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="22Jt1vriCi3cEmDluQ3OxzDVFTl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f10b341f-173b-4d9d-9641-a69729a426a4" name="Default Changelist" comment="" />
+      <created>1639567307128</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639567307128</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

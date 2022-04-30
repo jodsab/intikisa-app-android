@@ -10,7 +10,7 @@ export default function App() {
     <View style={styles.container}>
         <Pagina />
 
-      {/* <StatusBar style="auto" /> */}
+        <StatusBar barStyle = "dark-content" hidden = {false} backgroundColor = "#ffffff" translucent = {true}/>
     </View>
   );
 }

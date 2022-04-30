@@ -54,6 +54,7 @@ export default function Registro(props) {
         }
 
         const regRespuestaJson = await enviarRegData(URL_REGISTER, regdata);
+        console.log(regRespuestaJson)
 
         if(regRespuestaJson.registro == true ){
             storeNombre(name)
@@ -69,13 +70,14 @@ export default function Registro(props) {
 
     return (
         <View style={{flex: 1}}>
-            <TouchableOpacity onPress={props.closeModal}>
+            <TouchableOpacity onPress={props.closeModal} style={{flexDirection: 'row', alignItems:'center'}}>
                 <Icon name="keyboard-arrow-left" size={30} color='black' />
+                <Text>Regresar</Text>
             </TouchableOpacity>
             <View style={{flex: 1,justifyContent:"center", alignItems: "center"}}>
-                <View >
-                    <Image source={{uri: 'https://i.imgur.com/pOBw24N.png'}} style={{width: 150, height: 80}} />
-                </View>
+                <View>
+                    <Image source={require('../../assets/logo.png')} style={{width: 200, height: 120}} />
+                </View> 
                 <SafeAreaView>
                 <Text style={{color: "red", textAlign: "center"}} >{msj}</Text>
                     <Text>Con tu usuario ingresarás a tu cuenta</Text>

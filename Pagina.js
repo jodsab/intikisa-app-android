@@ -68,7 +68,7 @@ const Pagina = () => {
                     tabBarInactiveTintColor: 'gray'
                   })}
             >
-                <Tab.Screen name="Inicio" component={AroutesScreens.Inicio} /* children={()=><AroutesScreens.Inicio />} */ options={{headerShown: false, tabBarIcon: ({size,color}) => (<Icon name='home' size={size} color={color} />)}}  />
+                <Tab.Screen name="Inicio" component={AroutesScreens.Inicio} /* children={()=><AroutesScreens.Inicio />} */ options={{headerShown: true, tabBarIcon: ({size,color}) => (<Icon name='home' size={size} color={color} />)}}  />
                 <Tab.Screen name="Carrito" initialRouteName='Hola' component={AroutesScreens.Carrito} /* children={()=><AroutesScreens.Carrito  />} */ options={{headerShown: true, tabBarIcon: ({size,color}) => (<Icon name='shopping-cart' size={size} color={color} />)}} />
                 <Tab.Screen name="Compras" component={AroutesScreens.Compras} /* children={()=><AroutesScreens.Compras />} */ options={{headerShown: true, tabBarIcon: ({size,color}) => (<Icon name='shopping-bag' size={size} color={color} />)}} />
                 <Tab.Screen name="Logger" component={AroutesScreens.Logger} /* children={()=><AroutesScreens.Logger />} */ options={{headerShown: false, tabBarIcon: ({size,color}) => (<Icon name='user' size={size} color={color} />)}} />
